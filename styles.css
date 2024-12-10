@@ -1,0 +1,72 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --bg-black-1:#1b3035;
+    --bg-green-1:#a8f0cb;
+    --bg-green-2:#5ad9a1;
+    --margin-top: 100px;
+}
+
+.logo-text {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.my-title {
+    color: var(--bg-black-1);
+    font-weight: 600;
+}
+
+.nav-item a {
+    font-weight: 400;
+    font-size: 18px;
+}  
+
+.about {
+    min-height: 60vh;
+}
+
+.icon {
+    font-size: 30px;
+    color: var(--bg-green-2);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+
+}
+
+.card:hover {
+    background-color: var(--bg-green-2);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-green-2);
+    transition: .5s;
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+
+}
+
+@media(max-width:960px) {
+    #about{
+        text-align: center;
+    }
+}
